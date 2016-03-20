@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='HeroesOfTheStormApp'>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular.js"></script>
+    <script type="text/javascript" src="HoTS.js">
+
+    </script>
+
+  </head>
+  <body ng-controller='HeroesController as hots'>
+    <div class="chip" ng-repeat="heroe in hots.heroes">
+      <img src="{{heroe.icon}}" alt="Contact Person">
+      {{heroe.name}}
+    </div>
+  </body>
+</html>
