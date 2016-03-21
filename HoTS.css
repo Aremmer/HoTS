@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white
+}
+
+/*CSS changes for NavBar*/
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.landingImg {
+  z-index: -10;
+  position: absolute;
+}
+
+.landingWelcome {
+  position: relative;
+  box-sizing: border-box;
+  height: 65px;
+  width: 250px;
+  border: 2px solid pink ;
+  text-align: center;
+  font-size: 3em;
+  border-radius: 7px;
+  transform: translateY(50%);
+}
+
+.landingText {
+  position: relative;
+  box-sizing: border-box;
+  height: 150px;
+  width: 350px;
+  border: 2px solid pink ;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 7px;
+  transform: translateY(150%);
+}
