@@ -18,6 +18,13 @@ body {
 .navbar {
   margin-bottom: 0px;
 }
+
+.hamWrap {
+  height: 65px;
+  width: 95px;
+  border-radius: 7px;
+  background-color: rgba(216, 172, 75, 0.4);
+}
 /*End of Nav*/
 /*===========================================================================*/
 /*CSS landing page*/
