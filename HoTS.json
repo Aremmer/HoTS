@@ -5,7 +5,7 @@
     "name": "Abathur",
     "title": "Evolution Master",
     "description": "Does not directly engage in combat, but rather can act through his allied Heroes and Minions and place Toxic Nests to defend important locations.",
-    "icon": "./Images/abathur.jpg",
+    "icon": "ui_targetportrait_hero_Abathur.dds",
     "role": "Specialist",
     "type": "Melee",
     "gender": "Male",
