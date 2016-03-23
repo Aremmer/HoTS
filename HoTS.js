@@ -35,7 +35,15 @@
 
 
 
+      hots.heroFilter = []
 
+      for(var i=0; i < hots.heroes.length; i++) {
+        if(hots.heroes[i].role == 'Warrior'){
+          hots.heroFilter.push(hots.hero[i])
+        }
+      }
+
+      console.log(hots.heroFilter)
 
         // hots.roleFilters = []
         //

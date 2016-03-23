@@ -4,27 +4,7 @@ body {
 }
 /*===========================================================================*/
 /*CSS changes for NavBar*/
-.navbar-brand {
-  padding: 0px;
-}
-.navbar-brand>img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
-}
-.navbar-brand>img {
-  padding: 7px 14px;
-}
-.navbar {
-  margin-bottom: 0px;
-}
 
-.hamWrap {
-  height: 65px;
-  width: 95px;
-  border-radius: 7px;
-  background-color: rgba(216, 172, 75, 0.4);
-}
 /*End of Nav*/
 /*===========================================================================*/
 /*CSS landing page*/
