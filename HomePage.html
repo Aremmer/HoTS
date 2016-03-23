@@ -1,8 +1,7 @@
 <!-- Set up display for filter -->
-<div class="container">
 
   <!-- declare space for filter section -->
-  <div class="container">
+  <div class="row center">
     <div class="filter">Filter Type:</div>
 
     <!-- Icon list with attached filters for main page hero display -->
@@ -14,14 +13,12 @@
     </div>
   </div>
 
-</div>
+
 
 <!-- Set up display for Heroes icon -->
-<div class="container">
+<div class="row center">
 
   <!-- Display div for hero icon -->
-  <div ng-repeat="hero in hots.heroes" class="heroBox">
-    <img src="{{hero.icon}}" ng-if=" hero | roleFilter:hots.roles " class="heroIcon"/>
-  </div>
+  <div ng-repeat="hero in hots.heroes" style="background:url({{hero.icon}})" ng-if=" hero | roleFilter:hots.roles " class="hexagon"> </div>
 
 </div>
