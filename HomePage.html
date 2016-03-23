@@ -7,10 +7,10 @@
 
     <!-- Icon list with attached filters for main page hero display -->
     <div class="filter">
-      <a ng-click="myFilter = {role: 'Warrior'}"><img class="iconFilter " src="./Images/WarriorIcon.jpg" alt=""/></a>
-      <a ng-click="myFilter = {role: 'Assassin'}"><img class="iconFilter " src="./Images/AssassinIcon.jpg" alt=""/></a>
-      <a ng-click="myFilter = {role: 'Support'}"><img class="iconFilter " src="./Images/SupportIcon2.jpg" alt=""/></a>
-      <a ng-click="myFilter = {role: 'Specialist'}"><img class="iconFilter " src="./Images/SpecialistIcon.jpg" alt=""/></a>
+      <img ng-click="hots.addRole($event)" id="Warrior" class="iconFilter " src="./Images/WarriorIcon.jpg" alt=""/>
+      <img ng-click="hots.addRole($event)" id="Assassin" class="iconFilter " src="./Images/AssassinIcon.jpg" alt=""/>
+    <img  ng-click="hots.addRole($event)" id="Support" class="iconFilter " src="./Images/SupportIcon2.jpg" alt=""/>
+    <img ng-click="hots.addRole($event)" id="Specialist" class="iconFilter " src="./Images/SpecialistIcon.jpg" alt=""/>
     </div>
   </div>
 
@@ -20,8 +20,8 @@
 <div class="container">
 
   <!-- Display div for hero icon -->
-  <div ng-repeat="heroe in hots.heroes | filter: myFilter" class="heroBox">
-    <img src="{{heroe.icon}}" class="heroIcon"/>
+  <div ng-repeat="hero in hots.heroes" class="heroBox">
+    <img src="{{hero.icon}}" ng-if=" hero | roleFilter:hots.roles " class="heroIcon"/>
   </div>
 
 </div>
