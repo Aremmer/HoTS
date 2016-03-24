@@ -64,7 +64,7 @@ body {
 
 .heroBox {
   box-sizing: border-box;
-  border: 2px solid pink;
+  /*border: 2px solid pink;*/
   display: inline-block;
 }
 
