@@ -27,14 +27,14 @@
     $urlRouterProvider.otherwise('/')
   }
 
-  // ========================================================================== //
-  // HomePage Hero toggle filter
-  // ========================================================================== //
+// ========================================================================== //
 
   function HeroesController($http) {
     var hots = this
     hots.roles = ['Warrior', 'Assassin', 'Support', 'Specialist']
 
+    // HomePage Hero toggle filter
+    // ========================================================================== //
     hots.addRole = function($event) {
       var index = hots.roles.indexOf($event.target.id)
       console.log($event.target.id, index)
@@ -48,7 +48,7 @@
     }
 
     // Formating to call specific JSON data
-    $http.get('../HoTS.json')
+    $http.get('/HoTS.json')
       .success(function(response) {
         console.log(response.heroes)
         hots.heroes = response.heroes
