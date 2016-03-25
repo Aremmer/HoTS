@@ -1,7 +1,7 @@
 ;
 (function() {
   'use strict'
-// ========================================================================== //
+  // ========================================================================== //
   angular.module('HeroesOfTheStormApp', ['ui.router', 'heroesFilter'])
     .config(MainRouter)
     .controller('HeroesController', HeroesController)
@@ -11,37 +11,28 @@
     $stateProvider
       .state('LandingPage', {
         url: '/',
-        templateUrl: './LandingPage.html',
+        templateUrl: '../HTML/LandingPage.html',
       })
 
     .state('HomePage', {
       url: '/HomePage',
-      templateUrl: './HomePage.html',
+      templateUrl: '../HTML/HomePage.html',
     })
 
     .state('HeroBuild', {
       url: '/HeroBuild',
-      templateUrl: './HeroBuild.html'
+      templateUrl: '../HTML/HeroBuild.html'
     })
 
     $urlRouterProvider.otherwise('/')
-    }
+  }
 
-// ========================================================================== //
-// HomePage Hero toggle filter
-// ========================================================================== //
+  // ========================================================================== //
+  // HomePage Hero toggle filter
+  // ========================================================================== //
 
   function HeroesController($http) {
     var hots = this
-
-    // Formating to call specific JSON data
-    $http.get('HoTS.json')
-    .success(function(response) {
-      console.log(response.heroes)
-      hots.heroes = response.heroes
-
-    })
-
     hots.roles = ['Warrior', 'Assassin', 'Support', 'Specialist']
 
     hots.addRole = function($event) {
@@ -56,12 +47,27 @@
 
     }
 
-    hots.talentArray = []
+    // Formating to call specific JSON data
+    $http.get('../HoTS.json')
+      .success(function(response) {
+        console.log(response.heroes)
+        hots.heroes = response.heroes
+      })
 
-    hots.recBuildKey = []
-
-    // loadTalents uses pushTalent to pick a *selected* index for each level in the Talent Tree
+    // // ========================================================================== //
+    // // Set-up for recommended build display
+    // // ========================================================================== //
+    //
+    // hots.talentArray = []
+    //
+    // hots.recommendedBuildKey = []
+    //
+    // // loadTalents uses pushTalent to pick a *selected* index for each level in the Talent Tree
     // hots.loadTalents = function(activeHero, recBuildKey) {
+    //   // pushTalent is used to move the talent in each *selected* talent object of the index into the talentArray
+    //   function pushTalent(hero, level, index) {
+    //     hots.talentArray.push(hero.talents[level][index - 1])
+    //   }
     //   pushTalent(activeHero, "1", recBuildKey[0])
     //   pushTalent(activeHero, "4", recBuildKey[1])
     //   pushTalent(activeHero, "7", recBuildKey[2])
@@ -70,33 +76,25 @@
     //   pushTalent(activeHero, "16", recBuildKey[5])
     //   pushTalent(activeHero, "20", recBuildKey[6])
     // }
-
-// ========================================================================== //
-// Callback Function that singles out individual heroes to display build recommendations
-// ========================================================================== //
-
-    hots.oneHero = function(hero) {
-      hots.activeHero = hero
-      window.location.href = "/#/HeroBuild"
-      console.log(hots.activeHero)
-    }
-
-// ========================================================================== //
-// Set-up for recommended build display
-// ========================================================================== //
-
-// pushTalent is used to move the talent in each *selected* index of the talent object into the talentArray
-    // function pushTalent(hero, level, index) {
-    //   hots.talentArray.push(hero.talents[level][index - 1])
+    //
+    // // ========================================================================== //
+    // // Callback Function that singles out individual heroes to display build recommendations
+    // // ========================================================================== //
+    //
+    // hots.oneHero = function(hero) {
+    //   hots.activeHero = hero
+    //   window.location.href = "/#/HeroBuild"
+    //   console.log(hots.activeHero)
     // }
-  //   // calling the loadTalent function to process each hero's recommended build
-  //   hots.loadTalents(hots.activeHero, hots.activeHero.recBuildKey)
- }
+    //
+    // // calling the loadTalent function to process each hero's recommended build
+    // // hots.loadTalents(hots.activeHero, hots.activeHero.recBuildKey)
+  }
 
 
-// ========================================================================== //
+  // ========================================================================== //
 
 
 
 
-}());
+}())
