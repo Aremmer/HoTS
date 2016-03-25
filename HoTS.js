@@ -30,6 +30,7 @@
 // ========================================================================== //
 
   function HeroesController($http) {
+    $('.parallax').parallax();
     var hots = this
     hots.roles = ['Warrior', 'Assassin', 'Support', 'Specialist']
 
@@ -54,41 +55,26 @@
         hots.heroes = response.heroes
       })
 
-    // // ========================================================================== //
-    // // Set-up for recommended build display
-    // // ========================================================================== //
-    //
-    // hots.talentArray = []
-    //
-    // hots.recommendedBuildKey = []
-    //
-    // // loadTalents uses pushTalent to pick a *selected* index for each level in the Talent Tree
-    // hots.loadTalents = function(activeHero, recBuildKey) {
-    //   // pushTalent is used to move the talent in each *selected* talent object of the index into the talentArray
-    //   function pushTalent(hero, level, index) {
-    //     hots.talentArray.push(hero.talents[level][index - 1])
-    //   }
-    //   pushTalent(activeHero, "1", recBuildKey[0])
-    //   pushTalent(activeHero, "4", recBuildKey[1])
-    //   pushTalent(activeHero, "7", recBuildKey[2])
-    //   pushTalent(activeHero, "10", recBuildKey[3])
-    //   pushTalent(activeHero, "13", recBuildKey[4])
-    //   pushTalent(activeHero, "16", recBuildKey[5])
-    //   pushTalent(activeHero, "20", recBuildKey[6])
-    // }
-    //
-    // // ========================================================================== //
-    // // Callback Function that singles out individual heroes to display build recommendations
-    // // ========================================================================== //
-    //
-    // hots.oneHero = function(hero) {
-    //   hots.activeHero = hero
-    //   window.location.href = "/#/HeroBuild"
-    //   console.log(hots.activeHero)
-    // }
-    //
-    // // calling the loadTalent function to process each hero's recommended build
-    // // hots.loadTalents(hots.activeHero, hots.activeHero.recBuildKey)
+    // ========================================================================== //
+    // Callback Function that singles out individual heroes to display build recommendations
+    // and seperates a designated set of talents from the Talent Tree
+    // ========================================================================== //
+    hots.talentArray = []
+
+    hots.showBuild = function(hero){
+      hots.activeHero = hero
+
+      if (hots.talentArray.length > 0){
+        return hots.talentArray = []
+      }
+        for (var i = 0, k = 1; i < hero.recommendBuildKey.length; i++, k+=3) {
+          hots.talentArray.push(hero.talents[k][hero.recommendBuildKey[i]-1])
+          console.log(hots.talentArray)
+        }
+        // console.log(hots.talentArray[0].name);
+      window.location.href = "/#/HeroBuild"
+    }
+
   }
 
 

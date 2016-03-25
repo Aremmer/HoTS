@@ -11,6 +11,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Very Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 7,
@@ -254,7 +255,7 @@
         "icon": "storm_temp_btn-ability-zerg-banelingspooge.dds",
         "cooldown": 90
       }],
-      "20": [{
+      "19": [{
         "id": "AbathurUltimateEvolutionEvolutionaryLink",
         "name": "Evolutionary Link",
         "description": "As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 20% of their maximum Health.  Refreshes every 5 seconds.",
@@ -294,6 +295,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 6,
@@ -494,7 +496,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "AnubarakMasteryHiveMasterCarrionSwarm",
         "name": "Hive Master",
         "description": "Anub'arak gains a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 153 (+0.04 per level) damage and returns to heal Anub'arak for 37 (+0.04 per level) health.",
@@ -534,6 +536,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 6,
@@ -732,7 +735,7 @@
         "icon": "storm_ui_icon_artanis_doubleslash_var2.dds",
         "cooldown": 4
       }],
-      "20": [{
+      "19": [{
         "id": "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment",
         "name": "Orbital Bombardment",
         "description": "Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.",
@@ -770,6 +773,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 5,
@@ -968,7 +972,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "ArthasMasteryLegionOfNorthrendArmyoftheDead",
         "name": "Legion of Northrend",
         "description": "3 additional Ghouls are created.  Ghouls heal for an additional 25% and last 5 seconds longer.",
@@ -1008,6 +1012,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Easy",
+    "recommendBuildKey": [3, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 6,
@@ -1215,7 +1220,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "AzmodanMasteryPerishingFlame",
         "name": "Perishing Flame",
         "description": "When the Grunts die they explode, dealing 68 (+0.04 per level) damage to nearby enemies.",
@@ -1255,6 +1260,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 9,
@@ -1466,7 +1472,7 @@
         "description": "While above 80% life, your Basic Ability cooldowns regenerate 50% faster.",
         "icon": "storm_btn_d3_monk_mystically.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "BrightwingDoubleWyrmholeBlinkHeal",
         "name": "Double Wyrmhole",
         "description": "Blink Heal can be cast a second time on a different target within 2 seconds without consuming a charge.",
@@ -1512,7 +1518,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
-    "rBK": [4, 1, 3, 2, 2, 1, 2],
+    "recommendBuildKey": [4, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 4,
@@ -1709,7 +1715,7 @@
         "description": "Fresh Meat also increases your Attack Speed by 1% per stack.",
         "icon": "storm_ui_icon_Butcher_FreshMeat.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "ButcherMasteryFiresofHell",
         "name": "Fires of Hell",
         "description": "Furnace Blast explodes a second time 3 seconds after the initial explosion.",
@@ -1748,6 +1754,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [3, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 4,
@@ -1952,7 +1959,7 @@
         "icon": "storm_temp_war3_btndrunkendodge.dds",
         "cooldown": 5
       }],
-      "20": [{
+      "19": [{
         "id": "ChenMasteryWanderingKegUntappedPotential",
         "name": "Untapped Potential",
         "description": "Increases duration by 2 seconds. Additionally, gain an extra 5% Movement Speed whenever an enemy is hit, up to 100%.",
@@ -1992,6 +1999,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 2,
@@ -2164,7 +2172,7 @@
         "icon": "storm_ui_icon_cho_moltensurge_b.dds",
         "cooldown": 13
       }],
-      "20": [{
+      "19": [{
         "id": "ChoCthunsGift",
         "name": "C'thun's Gift",
         "description": "Your Basic Attack becomes ranged and slows targets by 20% for 2 seconds.",
@@ -2197,6 +2205,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 7,
@@ -2397,7 +2406,7 @@
         "description": "Enemies that attack you have their Attack Speed slowed by 40%.",
         "icon": "storm_ui_icon_talent_imposingpresence.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "DiabloMasteryDyingBreathApocalypse",
         "name": "Dying Breath",
         "description": "Apocalypse's cooldown is reduced by 20 seconds and is cast for free when you die.",
@@ -2437,6 +2446,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 6,
@@ -2639,7 +2649,7 @@
         "description": "Enemies that attack you have their Attack Speed slowed by 40%.",
         "icon": "storm_ui_icon_talent_imposingpresence.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "L90ETCMasteryMoshPitTourBus",
         "name": "Tour Bus",
         "description": "Mosh Pit refreshes the cooldown of Powerslide. You can Powerslide during Mosh Pit, which also increases its duration by 2 seconds.",
@@ -2684,6 +2694,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 4,
@@ -2901,7 +2912,7 @@
         "icon": "storm_btn_d3_wizard_archon.dds",
         "cooldown": 25
       }],
-      "20": [{
+      "19": [{
         "id": "FalstadMasteryCalloftheWildhammerHinterlandBlast",
         "name": "Call of the Wildhammer",
         "description": "Hinterland Blast has double the range and deals 25% more damage.",
@@ -2940,6 +2951,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [3, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 4,
@@ -3121,7 +3133,7 @@
         "icon": "storm_ui_icon_Gall_Shadowflame.dds",
         "cooldown": 3
       }],
-      "20": [{
+      "19": [{
         "id": "GallShadowboltVolleyShadowfury",
         "name": "Shadowfury",
         "description": "Shadow Bolt Volley hits all enemies in its path.",
@@ -3154,6 +3166,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 6,
@@ -3365,7 +3378,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "TinkerMasteryMechaLord",
         "name": "Mecha-Lord",
         "description": "Basic attacks deal an additional 150% damage to Heroes.",
@@ -3403,6 +3416,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 3,
@@ -3616,7 +3630,7 @@
         "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_Greymane_CurseOfTheWorgen_Var1.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "GreymaneGoForTheThroatUnleashed",
         "name": "Unleashed",
         "description": "If the free cast of Go for the Throat kills its target, another free cast is provided.",
@@ -3654,6 +3668,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Very Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 3,
@@ -3864,7 +3879,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "IllidanMasteryDemonicFormMetamorphosis",
         "name": "Demonic Form",
         "description": "Permanently remain in Demonic Form. Increases the Attack Speed bonus of Demonic Form to 30% and grants a 50% reduction in the duration of disabling effects. Illidan can mount in this form.",
@@ -3903,6 +3918,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 10,
       "utility": 4,
@@ -4099,7 +4115,7 @@
         "description": "When Jaina does increased damage from Frostbite, she is shielded for 25% of the total damage dealt. This Shield lasts 3 seconds.",
         "icon": "storm_ui_icon_jaina_frostbite.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "JainaRingOfFrostColdSnap",
         "name": "Cold Snap",
         "description": "The center of the ring also explodes with frost after the first ring expires.",
@@ -4139,6 +4155,7 @@
     "gender": "Female",
     "franchise": "Diablo",
     "difficulty": "Easy",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 6,
@@ -4343,7 +4360,7 @@
         "description": "Enemies that attack you have their Attack Speed slowed by 40%.",
         "icon": "storm_ui_icon_talent_imposingpresence.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "CrusaderMasteryFallingSwordHeavensFury",
         "name": "Heaven's Fury",
         "description": "While in the air, holy bolts rain down on enemies dealing 75 (+0.04 per level) damage and reducing the cooldown of Falling Sword by 2 seconds for each enemy hit.",
@@ -4382,6 +4399,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 5,
@@ -4584,7 +4602,7 @@
         "icon": "storm_temp_war3_btnmanashield.dds",
         "cooldown": 45
       }],
-      "20": [{
+      "19": [{
         "id": "KaelthasPhoenixRebirth",
         "name": "Rebirth",
         "description": "Increases Phoenix duration by 100%. You may order the Phoenix to move to a different location once while the Phoenix is alive.",
@@ -4624,6 +4642,7 @@
     "gender": "Female",
     "franchise": "Starcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 4,
@@ -4826,7 +4845,7 @@
         "icon": "storm_btn_d3_wizard_archon.dds",
         "cooldown": 25
       }],
-      "20": [{
+      "19": [{
         "id": "KerriganMasteryMaelstromOmegastorm",
         "name": "Omegastorm",
         "description": "Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom increased by 100%.",
@@ -4865,6 +4884,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [3, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 9,
@@ -5063,7 +5083,7 @@
         "icon": "storm_ui_icon_monk_deadlyreach.dds",
         "cooldown": 10
       }],
-      "20": [{
+      "19": [{
         "id": "MonkPeacefulReposeDivinePalm",
         "name": "Peaceful Repose",
         "description": "Divine Palm's cooldown is set to 5 seconds if the Hero does not die.",
@@ -5103,6 +5123,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Easy",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 5,
@@ -5306,7 +5327,7 @@
         "description": "Enemies that attack you have their Attack Speed slowed by 40%.",
         "icon": "storm_ui_icon_talent_imposingpresence.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "LeoricMasteryBuriedAliveEntomb",
         "name": "Buried Alive",
         "description": "Enemies inside Entomb take 68 (+0.08 per level) damage per second.",
@@ -5345,6 +5366,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 8,
@@ -5550,7 +5572,7 @@
         "icon": "storm_temp_war3_btnwindserpent.dds",
         "cooldown": 10
       }],
-      "20": [{
+      "19": [{
         "id": "LiLiMasteryJugof1000CupsJugof1000000Cups",
         "name": "Jug of 1,000,000 Cups",
         "description": "Jug of 1,000 Cups hits two targets at a time.",
@@ -5595,6 +5617,7 @@
     "gender": "Female",
     "franchise": "Diablo",
     "difficulty": "Hard",
+    "recommendBuildKey": [4, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 10,
       "utility": 1,
@@ -5781,7 +5804,7 @@
         "icon": "storm_ui_icon_wizard_teleport.dds",
         "cooldown": 5
       }],
-      "20": [{
+      "19": [{
         "id": "WizardDisintegrateTemporalFlux",
         "name": "Temporal Flux",
         "description": "Disintegrate slows enemies by 40%.",
@@ -5819,6 +5842,7 @@
     "gender": "Male",
     "franchise": "Retro",
     "difficulty": "Very Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 7,
       "utility": 5,
@@ -6049,7 +6073,7 @@
         "description": "Basic Attacks deal 40% more damage against slowed, rooted, or stunned targets.",
         "icon": "storm_temp_war3_btncleavingattack.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "LostVikingsMasteryWereOnABoat",
         "name": "Ragnarok 'n' Roll!",
         "description": "The Longboat can attack two targets at once and the range of its Mortar is increased by 100%.",
@@ -6085,6 +6109,7 @@
     "gender": "Female",
     "franchise": "Starcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 9,
@@ -6291,7 +6316,7 @@
         "icon": "storm_ui_icon_medic_displacementgrenade_b.dds",
         "cooldown": 12
       }],
-      "20": [{
+      "19": [{
         "id": "MedicTransfusionStimDrone",
         "name": "Transfusion",
         "description": "Increases the duration of Stim Drone by 2 seconds.  You also gain the effect of Stim Drone when cast on an ally.",
@@ -6330,6 +6355,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 5,
@@ -6533,7 +6559,7 @@
         "icon": "storm_ui_icon_Lunara_FullBloom_B.dds",
         "cooldown": 10
       }],
-      "20": [{
+      "19": [{
         "id": "DryadForestsWrath",
         "name": "Forest's Wrath",
         "description": "Increases Thornwood Vine's range by 30%, its speed by 20%, and your vision radius by 35%.",
@@ -6573,6 +6599,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 4,
       "utility": 7,
@@ -6781,7 +6808,7 @@
         "icon": "storm_btn-ability_malfurion-moonfire.dds",
         "cooldown": 3
       }],
-      "20": [{
+      "19": [{
         "id": "MalfurionMasterySerenity",
         "name": "Serenity",
         "description": "Increases Tranquility's healing by 25% and it also restores 5 Mana per second.",
@@ -6827,6 +6854,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 5,
@@ -7034,7 +7062,7 @@
         "icon": "storm_btn_d3_barbarian_ignorepain.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "MuradinMasteryAvatarUnstoppableForce",
         "name": "Unstoppable Force",
         "description": "Increases the duration of Avatar by 30%, and the duration of Disables are reduced by 75% while in Avatar.",
@@ -7074,6 +7102,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 5,
@@ -7277,7 +7306,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "MurkyMasteryNeverEndingMurlocs",
         "name": "Never-Ending Murlocs",
         "description": "Murlocs from March of the Murlocs travel farther and cling to targets for 2 seconds longer.",
@@ -7317,6 +7346,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 4,
@@ -7517,7 +7547,7 @@
         "description": "While above 80% life, your Basic Ability cooldowns regenerate 50% faster.",
         "icon": "storm_btn_d3_monk_mystically.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "WitchDoctorMasteryHumongoid",
         "name": "Humongoid",
         "description": "Gargantuan lasts indefinitely until killed, and deals 100% more damage against non-Heroic targets.",
@@ -7556,6 +7586,7 @@
     "gender": "Female",
     "franchise": "Starcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 10,
       "utility": 4,
@@ -7737,7 +7768,7 @@
         "icon": "storm_ui_icon_nova_holodecoy.dds",
         "cooldown": 15
       }],
-      "20": [{
+      "19": [{
         "id": "NovaMasteryFastReload",
         "name": "Fast Reload",
         "description": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
@@ -7777,6 +7808,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 1,
@@ -7972,7 +8004,7 @@
         "icon": "storm_temp_war3_btnberserk.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "RaynorHyperionGroundStrafe",
         "name": "Scorched Earth",
         "description": "An additional set of lasers blast the ground 5 times per second, dealing 40 (+0.04 per level) damage in an area.",
@@ -8016,6 +8048,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 7,
@@ -8215,7 +8248,7 @@
         "icon": "storm_temp_war3_btnlightningshield.dds",
         "cooldown": 8
       }],
-      "20": [{
+      "19": [{
         "id": "RehgarMasteryFarseersBlessing",
         "name": "Farseer's Blessing",
         "description": "Increases healing amount by 50%. Allies near the target are healed for 25% of the amount of health regained.",
@@ -8255,6 +8288,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [3, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 8,
@@ -8485,7 +8519,7 @@
         "icon": "storm_temp_war3_btnsacrificialskull.dds",
         "cooldown": 35
       }],
-      "20": [{
+      "19": [{
         "id": "RexxarSpiritBond",
         "name": "Spirit Bond",
         "description": "Increases the duration of Bestial Wrath by 50% and Misha's Basic Attacks heal Rexxar for 50% of her damage dealt during Bestial Wrath.",
@@ -8524,6 +8558,7 @@
     "gender": "Female",
     "franchise": "Starcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 3,
@@ -8739,7 +8774,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "SgtHammerMasteryOrbitalBFGBluntForceGun",
         "name": "Orbital BFG",
         "description": "Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.",
@@ -8777,6 +8812,7 @@
     "gender": "Female",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 7,
       "utility": 5,
@@ -8974,7 +9010,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "BarbarianMasteryArreatCraterLeap",
         "name": "Arreat Crater",
         "description": "Leap leaves behind an impassable crater for 5 seconds.",
@@ -9013,6 +9049,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 10,
@@ -9214,7 +9251,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "StitchesMasteryRegenerativeBilePutridBile",
         "name": "Regenerative Bile",
         "description": "Putrid Bile lasts 2 seconds longer, grants an additional 10% Movement Speed and heals for 48.6486% (+0.0555% per level) of the damage dealt.",
@@ -9254,6 +9291,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 7,
@@ -9456,7 +9494,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "SylvanasWailingArrowDeafeningBlast",
         "name": "Deafening Blast",
         "description": "Enemies at the center of Wailing Arrow's explosion take 50% more damage and are silenced for twice as long.",
@@ -9495,6 +9533,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Very Hard",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 7,
@@ -9704,7 +9743,7 @@
         "icon": "storm_ui_icon_tassadar_psionicstorm_var1.dds",
         "cooldown": 8
       }],
-      "20": [{
+      "19": [{
         "id": "TassadarMasteryTwilightArchon",
         "name": "Twilight Archon",
         "description": "Increases Archon's initial Shield and Attack Damage by 50%, and increases Basic Attack range in Archon form by 35%.",
@@ -9744,6 +9783,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 5,
@@ -9948,7 +9988,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "ThrallMasteryWorldbreaker",
         "name": "Worldbreaker",
         "description": "Sundering travels indefinitely.",
@@ -9987,6 +10027,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 1,
@@ -10224,7 +10265,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "TychusMasteryOdinBigRedButton",
         "name": "Big Red Button",
         "description": "Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile.",
@@ -10262,6 +10303,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 6,
@@ -10470,7 +10512,7 @@
         "icon": "storm_temp_war3_btndaggerofescape.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "TyraelMasteryJudgmentAngelofJustice",
         "name": "Angel of Justice",
         "description": "Increases the cast range of Judgment by 50%, and reduces the cooldown by 30 seconds.",
@@ -10509,6 +10551,7 @@
     "gender": "Female",
     "franchise": "Warcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 7,
@@ -10721,7 +10764,7 @@
         "icon": "storm_temp_war3_btnmoonstone.dds",
         "cooldown": 12
       }],
-      "20": [{
+      "19": [{
         "id": "TyrandeMasteryShadowstalkHuntersSwiftness",
         "name": "Hunter's Swiftness",
         "description": "When using Shadowstalk, you and allied Heroes gain 30% Movement Speed for 8 seconds.",
@@ -10766,6 +10809,7 @@
     "gender": "Male",
     "franchise": "Warcraft",
     "difficulty": "Easy",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 3,
       "utility": 9,
@@ -10981,7 +11025,7 @@
         "description": "Activate to reduce the Mana cost of your next Basic Ability by 50 and its cooldown by 10 seconds.",
         "icon": "storm_btn_d3_monk_blindingflash.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "UtherMasteryBulwarkOfLightDivineShield",
         "name": "Bulwark of Light",
         "description": "Divine Shield lasts 2 seconds longer and its cooldown is reduced by 20 seconds.",
@@ -11020,6 +11064,7 @@
     "gender": "Female",
     "franchise": "Diablo",
     "difficulty": "Easy",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 9,
       "utility": 1,
@@ -11226,7 +11271,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "DemonHunterMasteryVengeance",
         "name": "Vengeance",
         "description": "Strafe also fires penetrating bolts in a line for 34 (+0.04 per level) damage every 0.25 seconds.",
@@ -11265,6 +11310,7 @@
     "gender": "Male",
     "franchise": "Diablo",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 5,
       "utility": 9,
@@ -11442,7 +11488,7 @@
         "description": "Increases the maximum Skeletal Warriors you can have to 6 and increases their damage by 50%.",
         "icon": "storm_ui_icon_Necromancer_RaiseSkeleton.dds"
       }],
-      "20": [{
+      "19": [{
         "id": "NecromancerTalentCallOfTheGrave",
         "name": "Call of the Grave",
         "description": "Poison Nova deals an additional 1% of the target's maximum life as damage every second.",
@@ -11482,6 +11528,7 @@
     "gender": "Female",
     "franchise": "Starcraft",
     "difficulty": "Medium",
+    "recommendBuildKey": [2, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 6,
       "utility": 8,
@@ -11705,7 +11752,7 @@
         "icon": "storm_temp_war3_btnhardenedskin.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "ZagaraMasteryTyrantMaw",
         "name": "Tyrant Maw",
         "description": "Devouring Maw deals 50% more damage and each Takedown reduces its cooldown by 30 seconds.",
@@ -11744,6 +11791,7 @@
     "gender": "Male",
     "franchise": "Starcraft",
     "difficulty": "Hard",
+    "recommendBuildKey": [1, 1, 3, 2, 2, 1, 2],
     "ratings": {
       "damage": 8,
       "utility": 6,
@@ -11966,7 +12014,7 @@
         "icon": "storm_temp_war3_btnberserk.dds",
         "cooldown": 60
       }],
-      "20": [{
+      "19": [{
         "id": "ZeratulMasteryNerazimFuryShadowAssault",
         "name": "Nerazim Fury",
         "description": "Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.",

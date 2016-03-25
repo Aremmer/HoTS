@@ -10,16 +10,16 @@
       </div>
     </div>
 
-    <div class="col m6 ">
+    <div class="col m7 ">
 
 
         <div class="row">
           <div class="left">Recommended Build</div>
-          <div class="right">WW</div>
+          <!-- <div class="right">WW</div> -->
         </div>
 
         <div class="row">
-          <div class="recBuild">1 2 3 2 3 1 2</div>
+          <div ng-repeat="talent in hots.talentArray">For Talent #{{$index + 1}} : {{talent.name}}</div>
         </div>
 
     </div>

@@ -1,7 +1,22 @@
 body {
   background-color: black;
-  color: white
+  color: white;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 1.5rem;
 }
+/*===========================================================================*/
+/*CSS landing page*/
+
+.landingImg {
+  z-index: -10;
+  position: absolute;
+}
+
+
+
+
+/*End of Landing Page*/
+
 
 /*===========================================================================*/
 /*Hexagon Images*/
@@ -28,39 +43,6 @@ body {
 		}
 /*===========================================================================*/
 /*End Hexagon*/
-
-/*===========================================================================*/
-/*CSS landing page*/
-
-.landingImg {
-  z-index: -10;
-  position: absolute;
-}
-
-.landingWelcome {
-  position: relative;
-  box-sizing: border-box;
-  height: 65px;
-  width: 250px;
-  border: 2px solid pink ;
-  text-align: center;
-  font-size: 3em;
-  border-radius: 7px;
-  transform: translateY(50%);
-}
-
-.landingText {
-  position: relative;
-  box-sizing: border-box;
-  height: 150px;
-  width: 350px;
-  border: 2px solid pink ;
-  text-align: center;
-  font-size: 1.5em;
-  border-radius: 7px;
-  transform: translateY(150%);
-}
-/*End of Landing Page*/
 
 /*===========================================================================*/
 /*CSS Home Page*/
@@ -105,6 +87,6 @@ body {
     margin: 7px;
 }
 
-.recBuild {
+/*.recBuild {
   display: inline-block;
-}
+}*/
