@@ -64,15 +64,10 @@ body {
 
 /*===========================================================================*/
 /*CSS Home Page*/
-
 .heroBox {
-<<<<<<< HEAD
   box-sizing: border-box;
   /*border: 2px solid pink;*/
-=======
-  /*box-sizing: border-box;*/
-  border: 2px solid pink;
->>>>>>> fbfa7a61e80b873fb826f270e6918952b4029bf9
+
   display: inline-block;
 }
 
@@ -91,4 +86,25 @@ body {
 .iconFilter {
   height: 25px;
   width: 25px;
+}
+/*End Home Page*/
+
+/*===========================================================================*/
+/*CSS Hero Build Page*/
+
+.activeIcon {
+  position: relative;
+  height: 300px;
+  width: 206px;
+}
+
+.bottom-right {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    margin: 7px;
+}
+
+.recBuild {
+  display: inline-block;
 }

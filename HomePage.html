@@ -19,6 +19,6 @@
 <div class="row center">
 
   <!-- Display div for hero icon -->
-  <div ng-repeat="hero in hots.heroes" style="background:url({{hero.icon}})" ng-if=" hero | roleFilter:hots.roles " class="hexagon"> </div>
+  <div ng-repeat="hero in hots.heroes" style="background:url({{hero.icon}})" ng-if=" hero | roleFilter:hots.roles " class="hexagon" ng-click="hots.oneHero(hero)"> </div>
 
 </div>

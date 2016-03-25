@@ -1,30 +1,28 @@
 <div class="container">
-  <div ng-repeat="hero in hots.heroes" class="row">
+  <div class="row">
+    <div class="col m4 offset-m1">
 
-    <div class="col s5 offset-s1">
-      <div class="">
-        <div class="row">
-          <div class="card hover" style="background-image: {{hero.icon}}">
-            <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-              <a href="#">This is a link</a>
-            </div>
-          </div>
+      <div class="activeIcon" style="background-image: url({{hots.activeHero.icon}});">
+        <div >
+          <div class="">{{hots.activeHero.name}}</div>
+          <div class="bottom-right">{{hots.activeHero.title}}</div>
         </div>
       </div>
     </div>
+
+    <div class="col m6 ">
+
+
+        <div class="row">
+          <div class="left">Recommended Build</div>
+          <div class="right">WW</div>
+        </div>
+
+        <div class="row">
+          <div class="recBuild">1 2 3 2 3 1 2</div>
+        </div>
+
+    </div>
   </div>
-
-
-
-
 </div>
-
-
-
-
-<!-- ng-repeat="heroe in hots.heroes" -->
+    <!-- ng-repeat="heroe in hots.heroes" -->
