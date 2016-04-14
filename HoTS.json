@@ -1,5 +1,4 @@
-{
-  "heroes": [{
+ [{
     "id": "Abathur",
     "attributeid": "Abat",
     "name": "Abathur",
@@ -12042,4 +12041,3 @@
       }]
     }
   }]
-}
