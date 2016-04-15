@@ -1,6 +1,6 @@
 var mongoose = require('mongoose'),
     Schema   = mongoose.Schema,
-    HeroSchema = new Schema({
+    heroSchema = new Schema({
    attributeid:       {type:String},
    name:              {type:String},
    title:             {type:String},
@@ -23,3 +23,7 @@ var mongoose = require('mongoose'),
    abilities: {},
    talents: {}
  })
+
+ module.exports = {
+   Hero: mongoose.model('Hero', heroSchema)
+ }

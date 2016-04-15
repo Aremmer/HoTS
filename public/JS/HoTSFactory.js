@@ -7,17 +7,17 @@
 
   function heroFactory ($http) {
     var heroData = {},
-        apiUrl = 'http://localhost:8080/api/v2/heroes'
+        apiUrl = 'http://localhost:3000/api/v2/heroes'
 
     heroData.getAll = function () {
       console.log('getting all heroes')
       return $http.get(apiUrl)
     }
 
-    heroData.buildKey = function () {
-      console.log("getting hero build key")
-      return $http.get(apiUrl)
-    }
+    // heroData.buildKey = function () {
+    //   console.log("getting hero build key")
+    //   return $http.get(apiUrl)
+    // }
 
     // heroData.create = function (hero) {
     //   console.log('creating restaurant')

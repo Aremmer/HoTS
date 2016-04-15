@@ -1,9 +1,11 @@
-var Hero = require('../hero.js')
+var db = require('../models/hero.js')
+
 
 module.exports = {
   heroController: {
     getAll: function (req, res) {
-      db.hero.find({}, function(err,heroes){
+      console.log('testing123')
+      db.Hero.find({}, function(err,heroes){
         if(err) {
           res.json(err)
         } else {
@@ -15,7 +17,7 @@ module.exports = {
     //   res.json({message: 'Updated Build Key'})
     // },
     buildKey: function (req, res) {
-      Hero.find({name: params.name},{recommendBuildKey: 1, _id:0},function(err,rbk){
+      hero.find({name: params.name},{recommendBuildKey: 1, _id:0},function(err,rbk){
         res.json(rbk)
       })
     }

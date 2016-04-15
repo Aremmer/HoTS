@@ -4,7 +4,7 @@ var
 
   apiRouter.route('/heroes')
     .get(ctrl.heroController.getAll)
-    .get(ctrl.heroController.buildKey)
+    // .get(ctrl.heroController.buildKey)
     // .post(ctrl.heroController.create)
     // .delete(ctrl.heroController.destroy)
 

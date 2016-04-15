@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app='HeroesOfTheStormApp'>
+
+  <head>
+    <meta charset="utf-8">
+    <title>SqueekPop</title>
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+
+    <!-- Materalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <!-- AngularJS CDNJS + .js file script -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular.js"></script>
+    <script type="text/javascript" src="/JS/HoTSFactory.js"></script>
+    <script type="text/javascript" src="/HoTS.js"></script>
+    <script type="text/javascript" src="/JS/heroFilters.js"></script>
+    <!-- UI-Router link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="HoTS.css" media="screen" title="no title" charset="utf-8">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet' type='text/css'>
+
+  </head>
+  <!-- =================================================================================== -->
+  <!-- Nav Bar -->
+  <!-- =================================================================================== -->
+
+  <body ng-controller='HeroesController as hots'>
+    <div class="row" style="height: 90px; margin: 0px;">
+
+      <nav class="purple darken-2">
+
+        <div class="left">
+          <div class="nav-wrapper">
+            <a href="#/HomePage" class=""><img ng-src="/Images/og-heroes.png"></a>
+          </div>
+        </div>
+
+        <div class="center">
+          <ul id="nav-mobile" class="">
+            <li><a ui-sref="LandingPage">LandingPage</a></li>
+            <li><a ui-sref="HomePage">HomePage</a></li>
+            <li><a ui-sref="HeroBuild">HeroBuild</a></li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <a href="/#/HomePage"><img  class="center" style="height: 35px; width: 50px; margin; 0px;" alt="Brand" ng-src="./Images/hamburger.png"></a>
+        </div>
+
+      </nav>
+  </div>
+
+    <!-- End NavBar -->
+
+    <!-- =================================================================================== -->
+    <!-- SPA Main body insert UI-Router -->
+    <!-- =================================================================================== -->
+    <div ui-view></div>
+
+  </body>
+
+</html>

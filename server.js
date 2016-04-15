@@ -15,7 +15,7 @@ mongoose.connect(databaseURL, function(err){
   }
   console.log("connected to BADB")
 })
-
+ 
 app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
